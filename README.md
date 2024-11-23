@@ -51,8 +51,8 @@ The SQL queries in this repository rely on the following tables from Solana's da
 
 | Table Name                     | Description                                                                                  |
 |--------------------------------|----------------------------------------------------------------------------------------------|
-| [solana.transactions](https://dune.com/docs/tables/solana/transactions/) | Contains all transaction data, including IDs, timestamps, and fees.                      |
-| [solana.accounts](https://dune.com/docs/tables/solana/accounts/)       | Holds account details such as balances, creation timestamps, and activity records.       |
+| [dex_solana.trades]([[https://dune.com/docs/tables/solana/transactions/](https://docs.dune.com/data-catalog/solana/transactions#solana-transactions)](https://docs.dune.com/data-catalog/curated/solana/trading/solana-dex-trades#functional-overview)) | provides an in-depth view of trades on Solana-based decentralized exchanges like Raydium, Orca, or Serum                      |
+| [solana.accounts]([https://dune.com/docs/tables/solana/accounts](https://docs.dune.com/data-catalog/solana/account-activity)/)       | Holds account details such as balances, creation timestamps, and activity records.       |
 | [solana.tokens](https://dune.com/docs/tables/solana/tokens/)           | Tracks token transfers, including token IDs, amounts, and recipient wallet addresses.    |
 | [solana.blocks](https://dune.com/docs/tables/solana/blocks/)           | Includes block metadata like timestamps and transaction counts.                          |
 
