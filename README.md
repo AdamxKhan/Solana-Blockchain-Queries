@@ -46,6 +46,17 @@ The Solana blockchain offers unparalleled speed and low fees, making it a hub fo
    - Flagging transactions with unusually high fees, as these can sometimes be associated with attempts to prioritize fraudulent transactions in blocks.
 
 ---
+## 📚 **Tables Queried**
+The SQL queries in this repository rely on the following tables from Solana's dataset, available on [Dune Analytics](https://dune.com/). Each table is linked to its respective Dune documentation page for further details.
+
+| Table Name                     | Description                                                                                  |
+|--------------------------------|----------------------------------------------------------------------------------------------|
+| [solana.transactions](https://dune.com/docs/tables/solana/transactions/) | Contains all transaction data, including IDs, timestamps, and fees.                      |
+| [solana.accounts](https://dune.com/docs/tables/solana/accounts/)       | Holds account details such as balances, creation timestamps, and activity records.       |
+| [solana.tokens](https://dune.com/docs/tables/solana/tokens/)           | Tracks token transfers, including token IDs, amounts, and recipient wallet addresses.    |
+| [solana.blocks](https://dune.com/docs/tables/solana/blocks/)           | Includes block metadata like timestamps and transaction counts.                          |
+
+---
 
 ## 🗂 **Queries Included**
 ### **1. Transaction Analysis**
